@@ -4,15 +4,12 @@ export default function AboutPage() {
   return (
     <Paper sx={{ p: 3, borderRadius: 3 }}>
       <Typography variant="h5" fontWeight={900} gutterBottom>
-        Acerca de
+        Informacion del Sistema
       </Typography>
 
       <Typography color="text.secondary">
-        Ejercicio de Programación III: Router + Material UI + consumo simple de API.
-      </Typography>
-
-      <Typography sx={{ mt: 2 }}>
-        Reglas: 6 páginas en <strong>src/pages</strong> y sin crear capas extra de servicios.
+        Este sistema permite gestionar productos y realizar calculos basicos como valor total, IVA y descuentos. En la seccion "Productos", se consume una API
+        publica de Dragon Ball que incluye imagenes en el campo image.
       </Typography>
     </Paper>
   );
