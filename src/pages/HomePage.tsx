@@ -77,8 +77,8 @@ export default function HomePage() {
         icon={false}
         sx={{ 
           bgcolor: "#d1ecf1", 
-          color: "#0c5460", 
-          border: "1px solid #bee5eb",
+          color: "#053841", 
+          border: "1px solid #ffffff",
           borderRadius: 1 
         }}
       >
